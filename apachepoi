@@ -1,0 +1,25 @@
+Interface in POI
+Apache POI is that it supports read and write operations on both .xls and .xslx files.
+
+Below mentioned are some of the interfaces of the POI.
+
+XSSFWorkbook: Represents workbook in xlsx file.
+HSSFWorkbook: Represents workbook in xls file.
+
+XSSFSheet: Represents a sheet in XLSX file.
+HSSFSheet: Represents a sheet in XLS file.
+
+XSSFRow: Represents a row in a sheet of XLSX file.
+HSSFRow: Represents a row in a sheet of XLS file.
+
+XSSFCell: Represents a cell in a row of XLSX file.
+HSSFCell: Represents a cell in a row of XLS file.
+
+Fields available in a cell:
+
+CELL_TYPE_BLANK: Represents a blank cell.
+CELL_TYPE_BOOLEAN: Represents a Boolean cell (true or false).
+CELL_TYPE_ERROR: Represents an error value in a cell.
+CELL_TYPE_FORMULA: Represents a formula result on a cell.
+CELL_TYPE_NUMERIC: Represents numeric data in a cell.
+CELL_TYPE_STRING: Represents string in a cell.
